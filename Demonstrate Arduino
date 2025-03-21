@@ -1,0 +1,28 @@
+Practical 2 )Demonstrate Arduino Uno and its pins interfacing with IDE
+1.Connect your Arduino Uno board to your computer using a USB cable.
+2.Open the Arduino IDE on your computer.
+3.Go to Tools > Board and select "Arduino Uno" from the list of available boards.
+4.Go to Tools > Port and select the serial port to which your Arduino Uno is connected. If you're 
+not sure which port to choose, you can try each port until you find the correct one.
+5.In the Arduino IDE, create a new sketch by going to File > New.
+6.Write the following code in the sketch:
+void setup() {
+ // initialize digital pin LED_BUILTIN as an output.
+ pinMode(LED_BUILTIN, OUTPUT);
+}
+// the loop function runs over and over again forever
+void loop() {
+ digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
+ delay(1000); // wait for a second
+ digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the voltage LOW
+ delay(1000); // wait for a second
+}
+7.Go to Sketch > Upload to upload the sketch to your Arduino Uno.
+8.After uploading, the onboard LED on the Arduino Uno should start flashing on and off.
+In this example, we are using the onboard LED of the Arduino Uno which is connected to digital 
+pin 13 (also known as LED_BUILTIN). We set the pinMode to OUTPUT in the setup function to 
+tell the Arduino that we will be sending a signal to this pin. In the loop function, we turn the LED 
+on and off using the digitalWrite function, and then use the delay function to wait for a second 
+before repeating the process.
+Note: Make sure to select the correct board and port before uploading your sketch, otherwise it 
+may fail to upload or not work as expected.
