@@ -1,0 +1,32 @@
+Practical 1 )Preparing Raspberry Pi: Hardware preparation and Installation
+Installation
+To prepare your Raspberry Pi for use, you will need to follow a few steps:
+Hardware Preparation:
+1. Connect your Raspberry Pi to a power source using a micro USB cable.
+2. Connect a keyboard and mouse to your Raspberry Pi using USB ports.
+3. Connect a monitor to your Raspberry Pi using an HDMI cable.
+4. Insert a microSD card with the Raspberry Pi operating system image into the microSD 
+card slot on the Raspberry Pi.
+Installation:
+1. Download the Raspberry Pi operating system image from the official Raspberry Pi 
+website. You can choose from several different operating systems, including Raspberry Pi 
+OS and Ubuntu.
+2. Download and install the Raspberry Pi Imager software on your computer. This software 
+allows you to write the operating system image to the microSD card.
+3. Launch the Raspberry Pi Imager software and select the operating system image you 
+downloaded in Step 1.
+4. Select the microSD card you inserted into your Raspberry Pi in the Hardware Preparation 
+steps.
+5. Click the "Write" button to write the operating system image to the microSD card.
+6. Once the image has been written to the microSD card, eject the microSD card from your 
+computer and insert it into the microSD card slot on your Raspberry Pi.
+7. Power on your Raspberry Pi by plugging it in to a power source.
+8. The first time you boot up your Raspberry Pi, it will take a few minutes to install the 
+operating system and configure the device. Once the installation process is complete, you 
+will be prompted to set up your Raspberry Pi by creating a user account and configuring 
+network settings.
+9. Follow the prompts to complete the setup process, and your Raspberry Pi will be ready to 
+use!
+Note: Make sure to properly shut down your Raspberry Pi by selecting "Shutdown" from the 
+menu before unplugging the device from the power source to prevent data loss and damage to 
+the device
