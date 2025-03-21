@@ -1,0 +1,30 @@
+Practical 3: GPIO - Light the LED with Python (With/Without a Button) using Raspberry Pi
+Introduction
+Raspberry Pi’s GPIO (General-Purpose Input/Output) pins allow it to interact with external components like LEDs, buttons, and sensors. In this practical, we will use Python to control an LED using Raspberry Pi's GPIO pins in two scenarios:
+
+Blinking an LED without a button (automatic ON/OFF using a loop).
+Controlling an LED with a button (LED turns ON when the button is pressed).
+Objective
+Understand how to use GPIO pins on Raspberry Pi.
+Interface an LED and button with Raspberry Pi.
+Write Python code to control an LED automatically and manually.
+Components Required
+Raspberry Pi (any model with GPIO support)
+LED (Light Emitting Diode)
+330Ω Resistor (to protect the LED)
+Push Button (for manual control)
+Breadboard and Jumper Wires
+Theory
+1. GPIO Pins on Raspberry Pi
+The Raspberry Pi has multiple GPIO (General-Purpose Input/Output) pins that can be used as input (to receive signals) or output (to send signals).
+
+Output Mode: Used to turn devices ON/OFF (e.g., controlling an LED).
+Input Mode: Used to read signals (e.g., detecting button presses).
+2. LED Blinking Without a Button
+The Raspberry Pi sends a HIGH (3.3V) signal to turn the LED ON.
+It sends a LOW (0V) signal to turn the LED OFF.
+The LED continuously blinks using a loop with time delays.
+3. LED Control With a Button
+The button acts as a switch.
+When pressed, the circuit completes, and the Raspberry Pi detects a HIGH signal.
+The LED turns ON when the button is pressed and OFF when released.
